@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pirates.nbaonline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListTeacherAchivements"></activity>
+        <activity android:name=".DisplayAchivement" />
+        <activity android:name=".DisplayOnlineCourse" />
+        <activity android:name=".DisplayExtraCurricular" />
+        <activity
+            android:name=".ShowOnlineCourse"
+            android:label="Online Courses" />
+        <activity
+            android:name=".ShowExtraActivity"
+            android:label="Extra Activities" />
+        <activity
+            android:name=".TeacherTAMarks"
+            android:label="teacher Assessment" />
+        <activity
+            android:name=".TeacherEndSemExam"
+            android:label="End Sem Examination" />
+        <activity
+            android:name=".TeacherClassTest1"
+            android:label="Class Test 2" />
+        <activity
+            android:name=".TeacherExamNames"
+            android:label="Exam Types" />
+        <activity
+            android:name=".HODEditProfile"
+            android:label="Change HOD Password" />
+        <activity
+            android:name=".HODSubjectDistribution"
+            android:label="HOD Subject Distribution" />
+        <activity
+            android:name=".TeacherAchivments"
+            android:label="Teacher Achivments" />
+        <activity
+            android:name=".TeacherEditProfile"
+            android:label="Teacher Change Password" />
+        <activity
+            android:name=".TeacherSetAttendance"
+            android:label="Teacher Set Attendance" />
+        <activity
+            android:name=".TeacherEnterExamMarks"
+            android:label="Class Test 1" />
+        <activity
+            android:name=".StudentOnlineCourses"
+            android:label="Student Online Courses" />
+        <activity
+            android:name=".StudentExtracurricularActivities"
+            android:label="Student Extracurricular Activities" />
+        <activity
+            android:name=".StudentFeedback"
+            android:label="Student Feedback" />
+        <activity
+            android:name=".StudentStudentDetails"
+            android:label="Student Details" />
+        <activity
+            android:name=".StudentEditProfile"
+            android:label="Student Change Password" />
+        <activity
+            android:name=".CreateTeacher"
+            android:label="Create Teacher" />
+        <activity
+            android:name=".CreateHOD"
+            android:label="Create HOD" />
+        <activity
+            android:name=".DeanAccount"
+            android:label="Dean Account" />
+        <activity
+            android:name=".HODAccount"
+            android:label="HOD Account" />
+        <activity
+            android:name=".TeacherAccount"
+            android:label="Teacher Account" />
+        <activity
+            android:name=".StudentAccount"
+            android:label="Student Account" />
+        <activity
+            android:name=".DeanDashboard"
+            android:label="Dean Dashboard" />
+        <activity
+            android:name=".HODDashboard"
+            android:label="HOD Dashboard" />
+        <activity
+            android:name=".TeacherDashboard"
+            android:label="Teacher Dashboard" />
+        <activity
+            android:name=".StudentDashboard"
+            android:label="Student Dashboard" />
+        <activity
+            android:name=".StudentRegOTPVerification"
+            android:label=" Verify OTP for Registration" />
+        <activity
+            android:name=".StudentRegistration"
+            android:label="Register Student" />
+        <activity
+            android:name=".DeanChangePassword"
+            android:label="Set New Dean Password" />
+        <activity
+            android:name=".HODChangePassword"
+            android:label="Set New HOD Password" />
+        <activity
+            android:name=".TeacherChangePassword"
+            android:label="Set New Teacher Password" />
+        <activity
+            android:name=".StudentChangePassword"
+            android:label="Set New Student Password" />
+        <activity
+            android:name=".DeanOTP"
+            android:label="Change Dean Password" />
+        <activity
+            android:name=".HODOTP"
+            android:label="Change HOD Password" />
+        <activity
+            android:name=".TeacherOTP"
+            android:label="Change Teacher Password" />
+        <activity
+            android:name=".StudentOTP"
+            android:label="Change Student Password" />
+        <activity
+            android:name=".DeanMobileNumberFP"
+            android:label="Change Dean Password" />
+        <activity
+            android:name=".HODMobileNumberFP"
+            android:label="Change HOD Password" />
+        <activity
+            android:name=".TeacherMobileNumberFP"
+            android:label="Change Teacher Password" />
+        <activity
+            android:name=".StudentMobileNumberFP"
+            android:label="Change Student Password" />
+        <activity
+            android:name=".DeanLoginPage"
+            android:label="Dean Login" />
+        <activity
+            android:name=".HODLoginPage"
+            android:label="HOD Login" />
+        <activity
+            android:name=".TeacherLoginPage"
+            android:label="Teacher Login" />
+        <activity
+            android:name=".StudentLoginPage"
+            android:label="Student Login" />
+        <activity
+            android:name=".AllLoginButtons"
+            android:label="Login Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

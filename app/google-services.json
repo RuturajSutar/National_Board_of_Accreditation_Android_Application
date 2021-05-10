@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696595568992",
+    "firebase_url": "https://nba-online-9f396.firebaseio.com",
+    "project_id": "nba-online-9f396",
+    "storage_bucket": "nba-online-9f396.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696595568992:android:c08a098dd20e34e4e3e605",
+        "android_client_info": {
+          "package_name": "com.pirates.nbaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696595568992-htvdnnr7n6g80577bo6h5iout2o91pea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pirates.nbaonline",
+            "certificate_hash": "8f4a3f5a79c636dfe8b3ec14d5096b600a1f55ec"
+          }
+        },
+        {
+          "client_id": "696595568992-jarbps8s3sgq6amloprnanr5i7l13i0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0B75AtLwISgkLcwdsehWhbaLkeNcNl5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696595568992-jarbps8s3sgq6amloprnanr5i7l13i0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
